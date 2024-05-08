@@ -5,3 +5,11 @@
 .ex-1-square:hover{
     background-color: red;
 }
+
+.ex-2-square{
+    transition: width 2s linear 0s;
+}
+
+.ex-2-square.ex-2-square:active{
+    width: 100%;
+}
