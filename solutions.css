@@ -88,3 +88,19 @@
     border-radius: 10px;
     filter: grayscale(0.8) sepia(0.7);
 }
+
+/* esercizio 10 */
+.ex-10-icon{
+    animation: 1s linear reverse rotate;
+    animation-iteration-count: infinite;
+}
+
+@keyframes rotate {
+    0%{
+        rotate: 0deg;
+    }
+        
+    100% {
+        rotate: 360deg;
+    }
+}
