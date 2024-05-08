@@ -1,3 +1,4 @@
+/* esercizio 1 */
 .ex-1-square {
     transition: all 1s linear 0s;
 }
@@ -6,6 +7,8 @@
     background-color: red;
 }
 
+
+/* esercizio 2 */
 .ex-2-square{
     transition: width 2s linear 0s;
 }
@@ -14,6 +17,8 @@
     width: 100%;
 }
 
+
+/* esercizio 3 */
 .ex-3-square{
     transition: all 2s linear 0s;
 }
@@ -22,6 +27,8 @@
     border-radius: 100px;
 }
 
+
+/* esercizio 4 */
 .ex-4-square{
     transition: all 1s linear 0s;
 }
@@ -30,6 +37,8 @@
     opacity: 0;
 }
 
+
+/* esercizio 5 */
 .ex-5-square {
     transition: all 1s linear 0s;
 }
@@ -42,6 +51,21 @@
     transform: scale(0.5);
 }
 
+
+/* esercizio 6 */
 .ex-6-img:hover{
     filter:grayscale(1)
 }
+
+
+/* esercizio 7 */
+.ex-7-img{
+    transition: all 1s linear 0s;
+}
+
+.ex-7-img:hover{
+    filter: grayscale(1);
+}
+
+
+/* esercizio 8 */
