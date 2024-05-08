@@ -78,6 +78,7 @@
     border-radius: 10px;
 }
 
+
 /* esercizio 9 */
 .ex-9-img{
     transition: all 2s;
@@ -88,6 +89,7 @@
     border-radius: 10px;
     filter: grayscale(0.8) sepia(0.7);
 }
+
 
 /* esercizio 10 */
 .ex-10-icon{
@@ -104,6 +106,7 @@
         rotate: 360deg;
     }
 }
+
 
 /* esercizio 11 */
 .ex-11-icon:hover{
@@ -123,6 +126,7 @@
         rotate: 0deg;
     }
 } 
+
 
 /* esercizio 12 */
 
@@ -163,6 +167,84 @@
 
     100%{
         right: 20%;
+    }
+    
+}
+
+
+/* esercizio 13 */
+.ex-13-button:hover>.ex-13-top-white{
+    animation: 2s linear full-border-top-move;
+}
+
+
+@keyframes full-border-top-move {
+    0%{
+        left: 10%;
+        top: -10px;
+    }
+
+    30%{
+        left: 100%;
+        top: -10px;
+    }
+
+    45%{
+        left: 100%;
+        top: 55px;
+    }
+
+    75%{
+        left: -15px;
+        top: 55px;
+    }
+
+    90%{
+        left: -15px;
+        top: -10px;
+    }
+
+    100%{
+        left: 10%;
+        top: -10px;
+    }
+    
+}
+
+.ex-13-button:hover>.ex-13-bottom-white{
+    animation: 2s linear full-border-bottom-move;
+}
+
+
+@keyframes full-border-bottom-move {
+    0%{
+        right: 20%;
+        bottom: -10px;
+    }
+
+    30%{
+        right: 80%;
+        bottom: -10px;
+    }
+
+    45%{
+        right: 80%;
+        bottom: 55px;
+    }
+
+    75%{
+        right: -15px;
+        bottom: 55px;
+    }
+
+    90%{
+        right: -15px;
+        bottom: -10px;
+    }
+
+    100%{
+        right: 20%;
+        bottom: -10px;
     }
     
 }
